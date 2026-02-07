@@ -54,7 +54,23 @@ A robust Django REST Framework backend serving a curated collection of classic a
    
    > **Note**: As this is a backend-only repository, the root URL `/` will likely return a 404. Please navigate to `/api/` to interact with the application.
 
-## 🔑 Configuration
+## � Docker Support
+
+To run the API in a containerized environment:
+
+1.  **Build the image**:
+    ```bash
+    docker build -t classic-cocktails-api .
+    ```
+
+2.  **Run the container**:
+    ```bash
+    docker run -p 8000:8000 classic-cocktails-api
+    ```
+
+The API will be available at [http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/).
+
+## �🔑 Configuration
 
 Create a `.env` file in the root directory if you wish to override default settings (though defaults work out-of-the-box for development):
 
