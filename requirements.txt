@@ -1,0 +1,8 @@
+asgiref==3.9.1
+Django==5.2.6
+djangorestframework==3.16.1
+pillow==11.3.0
+setuptools==80.9.0
+sqlparse==0.5.3
+typing_extensions==4.15.0
+wheel==0.45.1
