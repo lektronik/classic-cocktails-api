@@ -53,8 +53,16 @@ A robust Django REST Framework backend serving a curated collection of classic a
    Open [http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/) to explore the API.
    
    > **Note**: As this is a backend-only repository, the root URL `/` will likely return a 404. Please navigate to `/api/` to interact with the application.
+   
+## 🧪 Testing
 
-## � Docker Support
+To run the automated tests:
+
+```bash
+python manage.py test drinks
+```
+
+##  Docker Support
 
 To run the API in a containerized environment:
 
